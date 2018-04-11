@@ -1,4 +1,4 @@
-#Goophie!
+# Goophie!
 
 Check out deployed project at [http://another-giphy-clone.surge.sh/](http://another-giphy-clone.surge.sh/).
 
@@ -6,12 +6,12 @@ This project, using GIPHY API, was made as a code challenge for [WireWheel](http
 
 I hope you like using this little app!
 
-###Technologies used:
+### Technologies used:
 
 * React.js
 * Materialize (in form of `react-materialize` dependency mostly)
 
-###To install on your local machine:
+### To install on your local machine:
 
 1. Clone repository
 2. Run `npm install`
