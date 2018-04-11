@@ -1,4 +1,15 @@
+@media (min-width: 1800px) {
+  .home {
+    min-height: 700px;
+    height: 100%;
+  }
+}
+
 .home {
   min-height: 500px;
   height: 100%;
+}
+
+h4 {
+  margin-top: 40px;
 }
