@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
 
-const Result = () => (
-  <section className="result">
-  </section>
-);
+class Result extends Component {
+  componentDidMount() {
+
+  }
+
+  render() {
+    return (
+      <section className="result">
+      </section>
+    );
+  }
+}
 
 export default Result;

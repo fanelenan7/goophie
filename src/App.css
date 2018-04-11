@@ -1,8 +1,8 @@
-.app__header {
-  display: flex;
-  justify-content: center;
+.app {
+  height: 63vh;
 }
 
-.app {
-  
+a {
+  color: inherit;
+  text-decoration: none;
 }

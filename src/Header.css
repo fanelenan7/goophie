@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+  .app__header {
+    display: flex;
+    justify-content: center;
+  }
+}
