@@ -1,6 +1,11 @@
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .app__header {
     display: flex;
     justify-content: center;
   }
+} */
+
+.app__header__logo {
+  height: 30px;
+  width: 30px;
 }

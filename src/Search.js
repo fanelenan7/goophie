@@ -1,6 +1,7 @@
 import React from 'react';
-import { Icon, Row, Col } from 'react-materialize';
-import { Link } from 'react-router-dom';
+import { Button, Icon, Row, Col } from 'react-materialize'
+
+import './Search.css';
 
 const Search = (props) => (
   <form className="search">
@@ -15,10 +16,10 @@ const Search = (props) => (
         />
       </Col>
       <Col className="col m6 s12 offset-m5">
-        <Link to="/result" className="waves-effect waves-light btn" onSubmit={e => props.handleSearch(e)}>
+        <Button onClick={e => props.handleSearch(e)} waves='light'>
           Search
           <Icon right>search</Icon>
-        </Link>
+        </Button>
       </Col>
     </Row>
   </form>

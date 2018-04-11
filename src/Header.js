@@ -1,18 +1,16 @@
 import React from 'react';
-import { Row, Col } from 'react-materialize';
+import { Link } from 'react-router-dom';
 
 import './Header.css';
 
 const Header = () => (
-  <header>
-    <div className="container app__header">
-      <Row>
-        <Col>
-          <h1>Welcome to Goophie!</h1>
-        </Col>
-      </Row>
+  <nav>
+    <div className="container app__header nav-wrapper">
+      <Link to="/" className="brand-logo">
+        Welcome to Goophie!<img className="app__header__logo" src="http://i0.kym-cdn.com/photos/images/original/000/541/824/c51.gif" alt="zergling logo!" />
+      </Link>
     </div>
-  </header>
+  </nav>
 );
 
 export default Header;
